@@ -1,5 +1,6 @@
 // project/backend/models/ProgressionEngine.js
 // ================== Mongoose Schemas/Models ==================
+const mongoose2 = require('mongoose');
 const UserSchema = new mongoose2.Schema({
     email: { type: String, required: true, unique: true },
     password: { type: String, required: true },
